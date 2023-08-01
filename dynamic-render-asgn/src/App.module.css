@@ -1,0 +1,39 @@
+.appNav{
+  display: flex;
+  background-color: rgb(89, 175, 228);
+  color: white;
+}
+.l1, .l2, .l3{
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.l2{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.formDiv{
+  display: flex;
+  justify-content: center;
+}
+.mainForm{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid black;
+}
+.formHead{
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+}
+.nameInput, .emailInput, .phoneInput, .nameDiv, .emailDiv, .phoneDiv{
+  margin: 5px;
+  padding: 0px 5px;
+}
+.btnSubDiv{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
